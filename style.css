@@ -119,3 +119,14 @@ footer a:hover {
     line-height: 0.5vw;
     width: 11vw;
 }
+
+.top-right {
+    position: absolute;
+    top: 0.7vw;
+    right: 1.8vw;
+    padding: 0.5vw;
+    background-color: #5A646C;
+    color: white;
+    line-height: 0.6vw;
+    width: 2.5vw;
+}
