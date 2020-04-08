@@ -111,11 +111,11 @@ footer a:hover {
 
 .bottom-left {
     position: absolute;
-    bottom: 5px;
-    left: 16px;
-    padding: 7px;
+    bottom: 0.4vw;
+    left: 1.5vw;
+    padding: 0.5vw;
     background-color: #5A646C;
     color: white;
-    line-height: 7px;
-    width: 150px;
+    line-height: 0.5vw;
+    width: 11vw;
 }
