@@ -1,0 +1,47 @@
+.bg-theme {
+    background-color: #0165D4;
+    color: white;
+}
+
+.color-theme {
+    color: #0165D4;
+}
+
+.options a {
+    color: white;
+    border: white 1px solid;
+    padding: 10px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.options a:hover {
+    opacity: 0.5;
+    /* color: white; */
+}
+
+input {
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.bg-dropdown-theme:hover {
+    background-color: #0136AA;
+    color: white;
+}
+
+.navbar-collapse .nav-text-color {
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #1148AC;
+}
