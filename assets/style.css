@@ -130,3 +130,13 @@ footer a:hover {
     line-height: 0.6vw;
     width: 2.5vw;
 }
+
+.less-md {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .less-md {
+      display: block;
+    }
+  }
