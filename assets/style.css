@@ -25,7 +25,7 @@
 }
 
 .top-width {
-    width: 15vw;
+    width: 200px;
 }
 
 .wide {
@@ -138,5 +138,49 @@ footer a:hover {
 @media screen and (max-width: 767px) {
     .less-md {
       display: block;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .less-md-block {
+      display: block;
+    }
+    .experience-block {
+        display: block;
+        text-align: left;
+    }
+
+    .sign-width {
+        width: 100px;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    .less-md-block {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1140px) {
+    .drop-1 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1141px) {
+    .drop-1 {
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 910px) {
+    .drop-2 {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .drop-3 {
+      display: none;
     }
   }
