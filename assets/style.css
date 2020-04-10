@@ -189,3 +189,11 @@ footer a:hover {
       display: none;
     }
   }
+
+  .blue:hover {
+      color: #0165D4;
+  }
+
+  .dropdown-item:hover {
+      background-color: #0165D4;
+  }
