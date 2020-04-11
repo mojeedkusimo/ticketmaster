@@ -1,0 +1,63 @@
+(function() {
+try {
+    (function(){
+/*
+//pixel.mathtag.com/event/js?mt_id=1289992&mt_adid=204079&mt_exem=&mt_excl=&v1=&v2=&v3=&v4=&s1=735353&s2=&s3=Janet%20Jackson&s4=&s5=TM_US:%20CCP%20Artist:%20On%20Sale&s6=&s7=&s8=&s9=0&s10=&mt_nsync=1
+*/
+
+  var mm_ri = String( Math.random() );
+  mm_ri = mm_ri.replace( /0\./g,'' );
+
+  var mm_protocol = location.protocol;
+  if ( mm_protocol != 'http:' && mm_protocol != 'https:' ){ mm_protocol = 'http:'; }
+
+  var mm_el0 = document.createElement('script');
+  mm_el0.style.display = 'none';
+  var url0 = '//pixel.mathtag.com/event/js?mt_id=1289992&mt_adid=204079&mt_exem=&mt_excl=&v1=&v2=&v3=&v4=&s1=735353&s2=&s3=Janet%20Jackson&s4=&s5=TM_US:%20CCP%20Artist:%20On%20Sale&s6=&s7=&s8=&s9=0&s10=&mt_nsync=1&mt_uuid=6c155b1f-29f8-4a00-848d-f0fc5830d85e';
+  url0 = url0.replace("\[RANDOM_NUMBER\]", mm_ri);
+  mm_el0.src = url0;
+  document.body.appendChild(mm_el0);
+
+
+})();
+(function() {
+    metric = function(url, wait)
+    {
+        setTimeout(function() {
+                var e = document.createElement("img");
+                e.src = url;
+            }, wait);
+    }
+    var intervals = [0, 10];
+    var inlen = intervals.length;
+    for (var k = 0; k < inlen; ++k)
+        this.metric("https://pixel.mathtag.com/misc/img?mm_bnc&bcdv="+k, intervals[k] * 1000);
+})();
+(function() {
+    try {
+        if (document.getElementById('mm_sync_back_ground'))
+           return;
+        var frm = document.createElement('iframe');
+        frm.style.visibility = 'hidden';
+        frm.style.display = 'none';
+        frm.src = "https://pixel.mathtag.com/sync/iframe?mt_uuid=6c155b1f-29f8-4a00-848d-f0fc5830d85e&no_iframe=1&mt_adid=149635";
+        frm.setAttribute("id", "mm_sync_back_ground");
+
+        if (document.body)
+            document.body.appendChild(frm);
+        else
+            if (document.head)
+                document.head.appendChild(frm);
+    }
+    catch(ex)
+    {
+        document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=synciframe&what="+encodeURIComponent(ex.message);
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap_js&what="+encodeURIComponent(ex.message);
+}
+})();
