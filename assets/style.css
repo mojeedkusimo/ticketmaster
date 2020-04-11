@@ -7,6 +7,10 @@
     color: #0165D4;
 }
 
+.grey-theme {
+    color: gray;
+}
+
 .options a {
     color: white;
     border: white 1px solid;
@@ -46,6 +50,11 @@
     font-size: 10px;
 }
 
+.font-5 {
+    font-size: 5px;
+    display: inline-block;
+}
+
 .font-12 {
     font-size: 12px;
 }
@@ -55,8 +64,17 @@
 }
 
 input {
-    width: 500px;
-    height: 500px;
+    width: 30px;
+    height: 30px;
+}
+
+.size {
+    width: 50px;
+    height: 46px;
+}
+
+.h-46 {
+    height: 46px;
 }
 
 img {
@@ -129,6 +147,17 @@ footer a:hover {
     position: absolute;
     top: 0.7vw;
     right: 1.8vw;
+    padding: 0.5vw;
+    background-color: #5A646C;
+    color: white;
+    line-height: 0.6vw;
+    width: 2.5vw;
+}
+
+.top-right-3 {
+    position: absolute;
+    top: 8vw;
+    right: 12vw;
     padding: 0.5vw;
     background-color: #5A646C;
     color: white;

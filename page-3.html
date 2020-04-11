@@ -49,30 +49,38 @@
 
     <main>
         <div class="container-fluid bg-theme pb-3">
-            <div class="row pt-4">
-                <div class="col text-center">
-                    <h4>Unforgettable Starts Here</h4>
+            <div class="row">
+                <div class="col-7">
+                    <!-- <nav aria-label="breadcrumb bg-theme">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        </ol>
+                      </nav> -->
+                      
+                      <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        </ol>
+                      </nav>
+                      
+                      <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb grey-theme">
+                          <li class="breadcrumb-item white"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#">Library</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Data</li>
+                          <span class="badge badge-primary ml-2">4.7</span>
+                        </ol>
+                      </nav>
+                      <span class="h1">John Doe Tickets</span>
                 </div>
-            </div>
-
-            <div class="row pt-5">
-                <div class="col text-center">
-                    <h4>Unforgettable Starts Here</h4>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col text-center">
-                    <input class="form-control  wide" type="search" placeholder="Search" aria-label="Search">
-                </div>
-            </div>
-
-            <div class="row mb-3 text-center options">
-                <div class="col text-center">
-                    <a href="#" class="btn border top-width font-14 font-w border-white  white  ml-3">Dashboard Confessional</a>
-                    <a href="#" class="btn border top-width font-14 font-w border-white  white  ml-3">Questlove Presents</a>
-                    <a href="#" class="btn border top-width font-14  font-w border-white white ml-3 drop-3">Lovelytheband</a>
-                    <a href="#" class="btn border top-width font-14 font-w border-white white  ml-3 drop-2">Phish</a>
-                    <a href="#" class="btn border top-width font-14 font-w border-white white  ml-3 drop-1">Echosmith</a>
+                <div class="col-5 text-right">
+                    <div class="relative">
+                        <img class="img-fluid" src="https://via.placeholder.com/250" alt="">
+                        <div class="top-right-3 rounded">
+                            &hearts;
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,240 +93,300 @@
             </div>
         </div>
 
-        <div class="container my-4">
+
+
+        <div class="container my-5">
             <div class="row">
                 <div class="col-8">
-                    <!-- <div class="container-fluid p-5"> -->
-                        <div class="row">
-                            <div class="col">
-                                <h3 class="h3">Just Announced</h3>
+                    <div class="row">
+                        <div class="col-2">
+                            <a href="#" class="btn border border-primary bg-theme event-info size ">A</a>
+                            <a href="#" class="btn border border-primary color-theme event-info ml-n2 size">B</a>
+                        </div>
+                        <div class="col-4 text-left">
+                            <div class="dropdown">
+                                <button class="h-46 btn dropdown-toggle text-left w-100 border border-primary" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select Your Dates
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdown">
+                                  <a class="dropdown-item" href="#">All Dates</a>
+                                  <a class="dropdown-item" href="#">This Weekend</a>
+                                  <a class="dropdown-item" href="#">Date Range</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 text-left mt-2">
+                           <span class="color-theme ml-n3 h5 mt-2">Reset</span> 
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-8">
+                            <input type="checkbox"><span> Events Only</span>
+                        </div>
+                        <div class="col-4">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle w-100 text-right border border-primary" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Sort By: Date
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdown">
+                                  <a class="dropdown-item" href="#">Date</a>
+                                  <a class="dropdown-item" href="#">Distance</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="h3">All Events</h3>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                            <div class="col-3">
-                                <img class="img-fluid" src="https://via.placeholder.com/200x150" alt="">
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col">
-                                       <span class="bg-success white rounded font-10 font-w p-1">PRESALE: HAPPENING</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col color-theme my-2">
-                                        Daughtry
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        State Theatre
-                                    </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
                                 </div>
                             </div>
-                            <div class="col-3 text-center">
-                                <button class="btn mt-5 border border-primary bg-theme event-info">See Tickets</button>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
                             </div>
                         </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3 line-h-7">
+                            <p class="color-theme">JUN 24</p>
+                            <p class="grey-theme font-14">Wed <span class="font-5"> &#9899;  </span> 8:00pm</p>
+                        </div>
+                        <div class="col-6 line-h-7">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet adipisicing.</p>
+                                    <p class="grey-theme font-14">Lorem ipsum dolor sit amet adipisicing.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col color-theme my-2">
+                                    ADD-ON
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 text-center">
+                            <button class="btn mt-2 border border-primary bg-theme event-info">See Tickets</button>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col">
+                            <a href="#" class="btn border border-primary color-theme event-info w-100">Load More</a>
+                        </div>
+                    </div>
             
 
                 </div>
@@ -372,25 +440,25 @@
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative  d-none d-lg-block">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
             </div>
@@ -399,25 +467,25 @@
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 relative  d-none d-lg-block">
                     <img class="img-fluid" src="https://via.placeholder.com/300x150" alt="">
                     <div class="bottom-left ml-2 mb-2 rounded">
-                        <p class="font-w text-left mt-2">John Legend</p>
+                        <p class="font-w text-left mt-2">John Doe</p>
                     </div>
                 </div>
             </div>
@@ -460,5 +528,6 @@
     </footer>
     <script src="assets/jquery-3.4.1.min.js"></script>
     <script src="assets/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.js"></script>
 </body>
 </html>
