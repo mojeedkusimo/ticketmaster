@@ -1,7 +1,16 @@
 .bg-theme {
-    background-color: #0165D4;
+    /* background-color: #0165D4; */
     color: white;
+    background: rgb(1,56,172);
+    background: linear-gradient(90deg, rgba(1,56,172,1) 0%, rgba(16,106,215,1) 56%, rgba(1,52,165,1) 100%);
 }
+
+/* .blue-div{
+    color: white;
+    font-size: 20px;
+    background: rgb(1,56,172);
+    background: linear-gradient(90deg, rgba(1,56,172,1) 0%, rgba(16,106,215,1) 56%, rgba(1,52,165,1) 100%);
+  } */
 
 .color-theme {
     color: #0165D4;
@@ -34,7 +43,7 @@
 
 
 .wide {
-    display: inline-block;
+    /* display: inline-block; */
     /* width: 1100px; */
     width: 80vw;
     height: 60px;
@@ -81,6 +90,10 @@ img {
     border-radius: 5px;
 }
 
+a img {
+    border-radius: 0px;
+}
+
 .bg-dropdown-theme:hover {
     background-color: #0136AA;
     color: white;
@@ -100,6 +113,7 @@ body {
 
 .nav-link:hover {
     background-color: #1148AC;
+    color: white;
 }
 
 .reverse-theme {
@@ -226,3 +240,38 @@ footer a:hover {
   .dropdown-item:hover {
       background-color: #0165D4;
   }
+
+
+  /* Maryam styles */
+  
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active{
+    background: rgb(2, 108, 223);
+}
+.carousel-indicators li{
+    background: rgb(191, 191, 191);
+}
+
+/* .navbar-light .navbar-toggler {
+
+    border-color: rgba(255, 255,255, 1);
+
+} */
+#white-div-nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(38, 38, 38)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+#blue-div-nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
